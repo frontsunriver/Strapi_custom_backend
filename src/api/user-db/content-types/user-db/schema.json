@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_dbs",
+  "info": {
+    "singularName": "user-db",
+    "pluralName": "user-dbs",
+    "displayName": "User_db",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "pass": {
+      "type": "password"
+    },
+    "password": {
+      "type": "string"
+    }
+  }
+}
